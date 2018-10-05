@@ -1,0 +1,14 @@
+Give the output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - -
+
+zanswer:
+
+was 
+best
+times
+of
+the
+was
+the
+it
+
+In stack there will be only "it".
