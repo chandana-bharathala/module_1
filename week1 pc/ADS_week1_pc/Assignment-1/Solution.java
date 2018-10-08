@@ -10,23 +10,17 @@ class AddLargeNumbers {
     	for(int i=0;i<ch.length;i++)
     	{
     		l1.add(ch[i]);
+    		//System.out.println("**"+l1);
     	}
     	return l1;
     }
 
     public static String digitsToNumber(LinkedList list) {
     	String str = null;
-    	Iterator it=list.iterator();
-    	while(it.hasNext())
-    	{
-    		 String str1 = list.toString();
-    	   
-    		str=str+str1; 
-    		//System.out.println("Str"+str);
-    		it.next();
-    	}
-
-		return str;
+    //	Iterator it=list.iterator();
+    	 String str1 = list.toString();
+    	 str=str+str1;
+    	 return str;
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
