@@ -1,0 +1,2 @@
+all the queue elements are dequeued and pushed in to stack and then the stack is poped and enqued in to queue,
+It is reverse of queue.
