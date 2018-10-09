@@ -16,10 +16,18 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-    	String str = null;
+    	String str ="";
     //	Iterator it=list.iterator();
     	 String str1 = list.toString();
-    	 str=str+str1;
+    	for(int i=0;i<str1.length();i++)
+    	{
+    		char c=str1.charAt(i);
+    				if(c!='['&&c!=','&& c!=']'&&c!=' ')
+    				{
+    					str+=c;
+    				}
+    	}
+    	// str=str+str1;
     	 return str;
     }
 
