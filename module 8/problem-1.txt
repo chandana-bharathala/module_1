@@ -1,0 +1,39 @@
+question: Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+
+solution:     E  A  S  Y  Q  U  E  S  T  I  O  N
+ascii value:  69 65 83 89 81 86 69 83 84 73 79 78
+it looks for the minimum value and swap with the first index
+65<69
+A will be the first element in the array
+-> A  E  S  Y  Q  U  E  S  T  I  O  N
+   65 69 83 89 81 86 69 83 84 73 79 78
+69<83
+swap
+-> A  E  E  Y  Q  U  S  S  T  I  O  N
+   65 69 69 89 81 86 83 83 84 73 79 78
+73<89
+swap
+-> A  E  E  I  Q  U  S  S  T  Y  O  N
+   65 69 69 73 81 86 83 83 84 89 79 78
+78<81
+swap
+-> A  E  E  I  N  U  S  S  T  Y  O  Q
+   65 69 69 73 78 86 83 83 84 89 79 81
+79<86
+swap
+-> A  E  E  I  N  O  S  S  T  Y  U  Q
+   65 69 69 73 78 79 83 83 84 89 86 81
+81<83
+swap
+-> A  E  E  I  N  O  Q  S  T  Y  U  S
+   65 69 69 73 78 79 81 83 84 89 86 83
+83<84
+swap
+-> A  E  E  I  N  O  Q  S  S  Y  U  T
+   65 69 69 73 78 79 81 83 83 89 86 84
+84<89
+swap
+-> A  E  E  I  N  O  Q  S  S  T  U  Y
+   65 69 69 73 78 79 81 83 83 84 86 89
+
+

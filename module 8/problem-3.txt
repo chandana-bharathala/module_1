@@ -1,0 +1,6 @@
+Which method runs faster for an array with all keys identical, basic selection sort or basic insertion sort?
+ans:
+basic insertion sort
+because there will no excution of loop and its time coplexity will be O(1),if the array is identical
+ 
+

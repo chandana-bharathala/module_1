@@ -1,0 +1,5 @@
+Which method runs faster for an array in reverse order, basic selection sort or basic insertion sort?
+ans:
+time complexity of basic selection sort for an array in reverse order is O(n^2).
+time complexity of basic insertion sort for an array in reverse order is O(n^2).
+both methods runs for same time.
