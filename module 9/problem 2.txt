@@ -1,0 +1,7 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+ans
+		E A S Y Q U E S T I O N
+		 AE  SY	 QU  ES  IT  NO
+		  AESY    EQSU   INOT
+		   AEEQSSUY    INOT
+		A E E I N O Q S S T U Y

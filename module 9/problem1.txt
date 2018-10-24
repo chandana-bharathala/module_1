@@ -1,0 +1,19 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
+ans:
+E A S Y Q U E S T I O N
+divides into half
+	E A S Y Q U 					 E S T  I O N
+again divides into half
+	E A S 	Y Q U 					 E S T 	I O N
+again divides into half
+	E A	 S    Y Q	 U      		 E S	 T    I O	 N
+again divides into half
+	E	 A	 S	 Y	 Q	 U	 E	 S	 T	I	 O	 N
+now compares and merges
+	A E	S	Q Y	U			 E S	T	I O	N
+now compares and merges	
+	A E S	Q U Y	E S T	I N O
+now compares and merges
+	A E Q S U Y	E I N O S T
+now compares and merges
+	A E E I N O Q S S T U Y
