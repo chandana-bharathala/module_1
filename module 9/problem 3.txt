@@ -1,6 +1,7 @@
 Give the sequence of subarray sizes in the merges performed by both the top-down and the bottom-up merge sort algorithms, 
 for N = 39.
 ans
+
 for top- down
 39
 19 20
@@ -15,6 +16,7 @@ for top- down
 9 10  10 10
 19 20
 39
+
 for bottom-up
 39
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1
