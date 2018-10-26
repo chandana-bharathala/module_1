@@ -1,0 +1,41 @@
+Activity6
+
+write the missing blanks
+
+
+
+
+
+
+
+private static int partition(Comparable[ ] a, int lo, int hi) {
+        int i = lo;
+        int j = hi + 1;
+        Comparable v = a[lo];
+        while (true) { 
+            while (less(a[---------], v)) { //Blank 1
+                if (i == --------) break; //Blank 2
+            }
+
+while (less(------------, a[--j])) { // Blank 3
+                if (j == lo) --------------;     // Blank 4
+
+}
+            if (i >= ----------) break;
+
+            exch(a, i, j);
+        }
+
+        exch(a,-------------, j);
+
+        return j;
+    }
+
+ans
+
+1. [++i]
+2. hi
+3. v
+4. j++
+5. j
+6. lo

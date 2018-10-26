@@ -1,0 +1,70 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with quick sort.
+ans
+E A S Y Q U E S T I O N
+pivot=E
+left=A
+right=N
+E A S Y Q U E S T I O N
+P R		      L
+E A S Y Q U E S T I O N
+P   R		    L
+E A S Y Q U E S T I O N
+P   R		  L
+E A S Y Q U E S T I O N
+P   R		L
+E A S Y Q U E S T I O N
+P   R	      L
+E A S Y Q U E S T I O N
+P   R	    L
+P==L
+L++
+E A S Y Q U E S T I O N
+P   R	  L
+E A S Y Q U E S T I O N
+P   R   L
+E A S Y Q U E S T I O N
+P   R L
+E A S Y Q U E S T I O N
+P   R
+    L
+P WILL BE IN L PLACE
+A E S Y Q U E S T I O N
+PIVOT=S
+LEFT=Y
+RIGHT=N
+A E S Y Q U E S T I O N
+    P L               R
+SWAP L AND R
+INCREMENT L AND R
+A E S N Q U E S T I O Y
+    P   L           R
+A E S N Q U E S T I O Y
+    P     L         R
+A E S N Q O E S T I U Y
+    P       L     R
+A E S N Q O E S T I U Y
+    P	      L   R
+A E S N Q O E S T I U Y
+    P           L R
+SWAP L AND R
+INCREMENT L AND R
+A E S N Q O E S I T U Y
+    P	        R L
+A E N Q O E S I S T U Y
+    P L       R
+SWAP L AND R
+INCREMENT L AND R
+A E N I O E S Q S T U Y
+    P   L   R
+A E N I O E S Q S T U Y
+    P   L R
+SWAP L AND R
+INCREMENT L AND R
+A E N I E O S Q S T U Y
+    P   R L
+PIVOT=O
+L=S
+R=Q
+A E I E N O S Q S T U Y
+A E E I N O S Q S T U Y
+A E E I N O Q S S T U Y
