@@ -1,0 +1,9 @@
+Draw all of the different heaps that can be made from the five keys A B C D E, 
+then draw all of the different heaps that can be made from the five keys A A A B B.
+ans 
+UNORDERED HEAP A B C D E
+MIN HEAP A B C D E
+MAX HEAP E D C B A
+UNODRDERED HEAP A A A B B
+MIN HEAP A A A B B
+MAX HEAP B B A A A
