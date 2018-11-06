@@ -1,0 +1,31 @@
+Give the sequences of nodes examined when the methods in BST are used to compute each of the following quantities 
+for the tree drawn at below.
+a. floor("Q") 
+b. select(5) 
+c. ceiling("Q") 
+d. rank("J") 
+e. size("D", "T") 
+f. keys("D", "T")
+ans:
+a. floor("Q")
+	Q is comapared with the root node E and moves to right and again coampares, then Q=Q and returns q as output.
+b. select(5) 
+	5 is compared with the rank of the root node i.e 3 and moves to right, when moved to right all the left nodes 
+including root are deleted form the 5, i.e, 5-1-2, that gives us 2. 2 is compared with updated rank of Q which is 2 
+and returns the output as Q.
+c. ceiling("Q") 
+	Q is comapared with the root node E and moves to right and again coampares, then Q=Q and returns q as output.
+d. rank("J") 
+	J>E
+TRUE
+moves to right and compares
+J>Q
+FALSE 
+moves to left and compares
+J==J
+gives 3
+e. size("D", "T") 
+returns the number of keys in given range
+E , J , M , Q , S
+f. keys("D", "T")
+D,E,J,M,Q,S,T
