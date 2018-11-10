@@ -1,0 +1,18 @@
+Answer the following questions on Separate Chaining Hash table for the keys and its hash values.
+Keys : S E A R C H E X A M P L E
+Hash : 2 0 0 4 4 4 0 2 0 4 3 3 0
+Note: If there are no keys write null, If there are multiple keys write keys with comma space separated
+
+a.For the index 0, Write the keys in ascending order.
+b.For the index 4, Write the keys in ascending order.
+c.For the index 1, Write the keys in ascending order.
+d.For the index 2, Write the keys in ascending order.
+e.For the index 3, Write the keys in ascending order.
+
+ans:
+a. A, E
+b. C, H, M, R
+c. NULL
+d. S, X
+e. L, P
+
